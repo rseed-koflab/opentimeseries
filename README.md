@@ -1,1 +1,5 @@
-# opentimeseries
+# opentimeseries: An R Package to Process (Ugly) Data Publications into Machine-Readable Time Series
+
+Because publications by public data providers focus on a broader audience, their datasets are often not convenient to use for research.
+To mitigate this problem, the opentimeseries R package provides the time series and official statistics communities with reusable code to conveniently source data from public sources. By splitting data and metadata into two different files, a long format CSV file for the data and a JSON file for multi-lingual metainformation, the package generates output that is inclusive to humans (and their favorite spreadsheet software) and convenient to ingest for machines.
+This data output is the starting point not only for intertemporal comparisons but also for versioning of time series, as it is needed for real-time analysis or evaluation of forecasts. The package open-sources a data ingestion framework, proven through its longtime usage in monitoring the Swiss economy at the KOF Swiss Economic Institute at ETH Zurich, for the first time. We explicitly chose the R ecosystem with its great documentation and boiler plating tools to encourage dataset maintenance and community contributions across different fields that use public data for research.
